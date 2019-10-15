@@ -9,7 +9,7 @@ def join_ingredients(src)
   
   new_array = []
   src.length.times { |i|
-    new_array[i] = "I love #{src[0]} and #{src[1]} on my pizza"
+    new_array[i] = "I love #{src[i][0]} and #{src[i][1]} on my pizza"
   }
   new_array
 end
