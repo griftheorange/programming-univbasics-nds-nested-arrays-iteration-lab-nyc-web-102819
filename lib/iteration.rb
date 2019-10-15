@@ -23,6 +23,7 @@ def find_greater_pair(src)
       new_array[i] = src[i][1]
     end
   }
+  new_array
 end
 
 def total_even_pairs(src)
