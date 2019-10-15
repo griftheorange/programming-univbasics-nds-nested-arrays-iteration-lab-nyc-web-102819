@@ -27,5 +27,8 @@ def find_greater_pair(src)
 end
 
 def total_even_pairs(src)
-  
+  total = 0
+  src.length.times {|i|
+    if src[i][0].isev
+  }
 end
